@@ -1,0 +1,80 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    border-color: aquamarine;
+    border-block-color: rgb(79, 188, 207);
+    /* padding-top: 5px; */
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+    margin-bottom: 5vh;
+}
+#header input{
+    border-radius: 6px;
+    height: 20px;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+#header button{
+    border-radius: 5px;
+    height: 25px;
+    background-color: rgb(20, 15, 15);
+    color: white;
+}
+#movielist{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.movieCard{
+    transition: 1s ease-out;
+    height: 425px;
+    min-width: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 1px 1px;
+    border-radius: 3px;
+    align-self: center;
+    border-color: rgb(228, 144, 245);
+}
+.movieCard img
+{
+    height:250px;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 1vh;
+    box-shadow: 2px 0px 8px;
+    border-color: rgb(142, 101, 180);
+    background-color: white;
+    transition: 1s ease;
+}
+.movieCard :hover{
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.1);
+    transform: scale(1.02);
+    transition: 1s ease-out;
+}    
+.movieCard img:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 1s ease;
+}
+.movieCard button
+{
+    box-shadow: 2px 0px 8px;
+    border-color: rgb(158, 120, 194);
+    transition: 1s ease-in-out;
+    border-radius: 4px;
+}
