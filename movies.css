@@ -1,5 +1,10 @@
 body{
     background-color: aliceblue;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Feditorial.rottentomatoes.com%2Fguide%2Fessential-movies-to-watch-now%2F&psig=AOvVaw2xVmz-rFetW_5yNcuKfDaP&ust=1703747829433000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjmibqJr4MDFQAAAAAdAAAAABAD");
+    height: 600px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 h1{
     text-align: center;
