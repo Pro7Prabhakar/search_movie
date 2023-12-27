@@ -1,5 +1,10 @@
 body{
     background-color: aliceblue;
+    background-image: url("https://s3-us-west-2.amazonaws.com/prd-rteditorial/wp-content/uploads/2018/03/13153742/RT_300EssentialMovies_700X250.jpg");
+    height: 650px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 h1{
     text-align: center;
@@ -8,6 +13,7 @@ h1{
     box-shadow: 1px 1px 2px;
     border-color: aquamarine;
     border-block-color: rgb(79, 188, 207);
+    color: white;
     /* padding-top: 5px; */
 }
 #header{
